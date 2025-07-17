@@ -1,0 +1,49 @@
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.pokemon-name{
+    text-align: center;
+}
+.container{
+    display: flex;
+justify-content: center;
+margin: auto;
+
+}
+
+.container > div {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.container > div:first-child {
+border-right: 1px solid black;
+
+
+}
+
+.named {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(88, 216, 188);
+    padding: 4px;
+    margin: 16px;
+    border: 1px soild rgba(0, 0, 0, 0.189);
+    border-radius: 8px;
+ 
+}
+body{
+    background-color: rgb(30, 107, 91);
+}
+.container{
+    background-color: rgb(88, 216, 188);
+    margin: auto;
+    margin: 16px;
+    border: 1px soild rgba(0, 0, 0, 0.189);
+    border-radius: 8px;
+}

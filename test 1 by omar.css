@@ -3,7 +3,7 @@ body{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-div{
+div:not(.verify){
     background: rgb(88, 216, 188);
     padding: 16px;
     margin: 16px;
@@ -40,4 +40,16 @@ button{
     width: 600px;
     height: 50px
     
+}
+
+.verify{
+    display: none;
+
+}
+
+.too-old{
+    font-size: 48px;
+    text-align: center;
+    color: red;
+    display: none;
 }
