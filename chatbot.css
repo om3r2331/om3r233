@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: "sora", sans-serif;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background: rgb(75, 73, 73);
+    padding: 16px;
+    border-radius: 16px;
+
+}
+
+.chat-area{
+    border-radius: 16px;
+    background: white;
+    height: 500px;
+
+}
+
+.chat-input{
+    border-radius: 16px;
+    background: white;
+    margin-top: 16px;
+    display: flex;
+
+
+
+input{
+    width: 100%;
+    height: 38px;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0 16px;
+
+}
+button{
+    border-radius: 10000px;
+    background: orange;
+    border: none;
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+}
+
